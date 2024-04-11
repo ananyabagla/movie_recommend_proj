@@ -67,7 +67,7 @@ if st.button('Recommend'):
         st.text(names[9])
         st.image(posters[9])
 
-streamlit.write("by Ananya Vikram Bagla")
+st.text("by Ananya Vikram Bagla")
 
 
 
