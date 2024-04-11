@@ -70,6 +70,10 @@ if st.button('Recommend'):
 
 
 col1, col2, col3 = st.columns([1, 1, 10])
+with col1:
+    st.write(" ")
+with col2:
+    st.write(" ")
 with col3:
     st.header("by - Ananya Vikram Bagla")
 
