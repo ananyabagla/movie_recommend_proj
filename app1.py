@@ -67,7 +67,11 @@ if st.button('Recommend'):
         st.text(names[9])
         st.image(posters[9])
 
-st.text("by Ananya Vikram Bagla")
+
+
+col1, col2, col3 = st.columns([1, 1, 10])
+with col3:
+    st.header("by - Ananya Vikram Bagla")
 
 
 
